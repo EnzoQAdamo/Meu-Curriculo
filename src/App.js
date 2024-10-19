@@ -17,7 +17,7 @@ function App() {
   return(
     <div className='container'>
       <div className='box1'>
-        <video ref={videoRef} className={`video ${valor > 0 ? 'visible' : 'hidden'}`}> // Controla a classe de visibilidade
+        <video ref={videoRef} className={`video ${valor > 0 ? 'visible' : 'hidden'}`}> {/* Controla a classe de visibilidade*/}
           <source src={bobomp4} type="video/mp4"/>
         </video>
       </div>
