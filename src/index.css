@@ -67,3 +67,15 @@ code {
 .espaco{
   width: 5%;
 }
+
+.hidden {
+  visibility: hidden; /* Ou você pode usar display: none; */
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.5s ease; /* Adiciona um efeito de transição suave */
+}
