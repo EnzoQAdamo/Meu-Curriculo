@@ -1,14 +1,16 @@
 import './App.css'
-import MeuComponente from './seila';
+import Video from './components/Video'; 
+import Pergunta from './components/Pergunta';
 
 function App() {
   return(
-    <div>
-      <MeuComponente/>
-      <div className="content">
-        <h1>Meu Currículo</h1>
-        <p>Conteúdo do seu currículo aqui.</p>
-        {/* Adicione mais conteúdo conforme necessário */}
+    <div className='container'>
+      <div className='box1'>
+        <Video/>
+      </div>
+       <Pergunta/> 
+      <div className='box1'>
+        <Video/>
       </div>
     </div>
   )

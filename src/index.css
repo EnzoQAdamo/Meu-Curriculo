@@ -12,32 +12,58 @@ code {
     monospace;
 }
 
-.video-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1; /* Para garantir que fique atrás do conteúdo */
-}
-
-.video-bg video {
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.video {
+  width: 100%; /* Faz o vídeo ocupar 100% da largura*/
+  height: auto; /* Mantém a proporção do vídeo */
 }
 
 .content {
   position: relative;
   z-index: 1; /* Para garantir que fique acima do vídeo */
   padding: 20px;
-  background: rgba(255, 255, 255); /* Fundo semitransparente para legibilidade */
+  background: rgba(255, 255, 255);
   max-width: 800px;
   margin: 0 auto;
+}
+
+.container {
+  display: flex; /* Ativa o Flexbox */
+  height: 100vh;
+}
+
+.box1 {
+  background-color: black; /* Cor de fundo para Div 1 */
+  width: 30%; /* Largura da box1 */
+  display: flex; /* Ativa o Flexbox para box1 */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.box2 {
+  background-color:aliceblue; /* Cor de fundo para Div 3 */
+  width: 40%;
+}
+
+.fotos{
+  display: flex; /* Ativa o Flexbox */
+  justify-content: center; /* Centraliza as imagens horizontalmente */
+}
+
+.foto{
+  width: 40%;
+  height: auto;
+}
+
+.pergunta{
+  display: flex; /* Ativa o Flexbox para box1 */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */ 
+}
+
+.imagem{
+  width: 80%;
+  height: auto;
+}
+
+.espaco{
+  width: 5%;
 }
