@@ -1,0 +1,49 @@
+.add-margin {
+    display:inline-flex; /* Garante que os filhos fiquem lado a lado */
+    justify-content:flex-start; /* Centraliza os itens */
+    width: 60vw; /* Define a largura total que ocupam juntos */
+    background-color: #FFFFFF;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.lista-atributos {
+    width: 25vw; /* Largura do primeiro contêiner */
+}
+
+.descricao {
+    width: 35vw; /* Largura do segundo contêiner */
+    padding: 0px 25px;
+}
+
+.botoes button{
+    margin: 0px 5px;
+}
+
+.atributos-lista {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0;
+    margin: 0;
+}
+
+.atributos-lista li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #ccc; /* Adiciona uma linha separadora */
+    padding: 10px 0; /* Espaçamento interno entre os itens */
+}
+
+.titulo {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: bold;
+    color: #FFFFFF; 
+    min-width: 110px; /* Define uma largura mínima para os títulos */
+}
+
+.titulo span{
+    background-color: #4CAF50;
+    padding: 3px 5px; /* Espaçamento interno: 5px em cima/baixo, 5px nas laterais */
+    border-radius: 5px; /* (Opcional) Arredonda os cantos do fundo */
+}

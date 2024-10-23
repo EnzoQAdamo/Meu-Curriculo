@@ -1,0 +1,59 @@
+
+/* Paleta de Cores */
+
+/* Cor de fundo principal */
+.bg-light {
+  background-color: #c9c9c9;
+}
+
+/* Cor dos botões e links */
+.text-link,
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #4CAF50;
+  border: none;
+  padding: 3px 3px;
+  border-radius: 3px;
+}
+
+.text-link:hover,
+.btn-primary:hover {
+  background-color: #43A047; /* Um pouco mais escuro no hover */
+}
+
+.btn-secundary {
+  color: #000000;
+  background-color: #c9c9c9;
+  border: none;
+  padding: 3px 3px;
+  border-radius: 3px;
+}
+
+.btn-secundary:hover {
+  background-color: #a1a1a1; /* Um pouco mais escuro no hover */
+}
+
+/* Cor do texto principal */
+.text-primary {
+  color: #333333;
+}
+
+/* Cor do texto secundário */
+.text-secondary {
+  color: #757575;
+}
+
+/* Cor de acento para ícones e detalhes */
+.accent {
+  color: #FF5722;
+}
+
+/* Cor de alerta ou erro */
+.text-error {
+  color: #F44336;
+}
+
+.bg-error {
+  background-color: #F44336;
+  color: #FFFFFF;
+}

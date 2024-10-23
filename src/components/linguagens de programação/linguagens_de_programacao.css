@@ -1,0 +1,41 @@
+/* Container da grade */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Define no máximo 4 colunas */
+  padding: 20px;
+  justify-content: center; /* Centraliza a grade na página */
+  width: 40vw;
+}
+
+/* Estilo das divs internas */
+.grid-item {
+  /*background-color: #4CAF50;*/
+  color: #000000;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  max-height: 20vh; /* Defina um limite máximo de altura */
+
+}
+
+/* Ao passar o mouse, expande 20% */
+.grid-item:hover {
+  transform: scale(1.1); /* Expande a div */
+  /* background-color: #43A047; /* Muda de cor suavemente */
+}
+
+/* Texto oculto inicialmente */
+.hidden-text {
+  display: none;
+}
+
+/* Mostrar o texto oculto ao passar o cursor */
+.grid-item:hover .hidden-text {
+  display: block;
+  margin-top: 0px;
+  font-size: 14px;
+}
+
+.imagem{
+  height: 100%;
+}
