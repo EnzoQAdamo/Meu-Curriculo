@@ -1,1 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
 
+.video-bg {
+  position: fixed;
+  top: -300px;
+  left: 0;
+  width: 1920px;
+  overflow: hidden;
+  z-index: -1; /* Para garantir que fique atrás do conteúdo */
+}
+
+.conteudo{
+    display: grid;
+    grid-template-columns: 1fr; /* Uma coluna */
+    margin-top: 30vh;
+    z-index: 1; /* Para garantir que o conteúdo fique sobre o vídeo */
+}
+
+.foto-perfil{
+    display: flex;
+    justify-content: center;
+    position: relative; /* Para que os elementos filhos possam ser posicionados em relação a esta div */
+}
+
+.foto-perfil img{
+    position: absolute; /* Mudar para absolute para permitir a sobreposição */
+    bottom: -50px; /* Ajuste este valor para controlar quanto a imagem invade a div abaixo */
+    height: 150px;
+    border-radius: 100%;
+}

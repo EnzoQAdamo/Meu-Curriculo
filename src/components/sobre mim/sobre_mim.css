@@ -1,5 +1,6 @@
-.add-margin {
-    display:inline-flex; /* Garante que os filhos fiquem lado a lado */
+.conteiner {
+    display:flex;  /*Garante que os filhos fiquem lado a lado */
+    flex-flow: wrap; /* Permite que os itens quebrem em uma nova linha */
     justify-content:flex-start; /* Centraliza os itens */
     width: 60vw; /* Define a largura total que ocupam juntos */
     background-color: #FFFFFF;
@@ -8,12 +9,12 @@
 }
 
 .lista-atributos {
-    width: 25vw; /* Largura do primeiro contêiner */
+    flex: 35%; /* Essa coluna ocupa 2 partes do espaço disponível */
+    margin-right: 2%; /* Espaço entre as colunas */
 }
 
 .descricao {
-    width: 35vw; /* Largura do segundo contêiner */
-    padding: 0px 25px;
+    flex: 63%; /* Essa coluna ocupa 2 partes do espaço disponível */
 }
 
 .botoes button{

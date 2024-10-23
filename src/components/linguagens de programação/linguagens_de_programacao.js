@@ -4,57 +4,48 @@ import logo from '../../assets/fotos/logoEQA.jpg'
 
 const linguagensDeProgramacao = () => {
   return(
-    <div>
-      <div className='new-section'>
-          <h1>Linguagens de Programação</h1>
-      </div>
-      
-      <div className='new-section'>
-        <div className="grid-container">
+    <div className='new-section'>
+      <h1>Linguagens de Programação</h1>
+
+      <div className="grid-container">
+        <div className='grid-row'>
           <div className="grid-item">
             <img className='imagem' src={logo} alt='logo teste'/>
-          <p className="hidden-text">Intermediario</p>
+            <div><p className="hidden-text">Intermediario</p></div>
           </div>
 
           <div className="grid-item">
             <img className='imagem' src={logo} alt='logo teste'/>
-            <p className="hidden-text">Avancado</p>
+            <div><p className="hidden-text">Avancado</p></div>
           </div>
 
           <div className="grid-item">
             <img className='imagem' src={logo} alt='logo teste'/>
-            <p className="hidden-text">Iniciante</p>
+            <div><p className="hidden-text">Iniciante</p></div>
           </div>
 
           <div className="grid-item">
             <img className='imagem' src={logo} alt='logo teste'/>
-            <p className="hidden-text">Iniciante</p>
+            <div><p className="hidden-text">Iniciante</p></div>
           </div>
-
-          <div className="grid-item">
-            <img className='imagem' src={logo} alt='logo teste'/>
-          <p className="hidden-text">Intermediario</p>
-          </div>
-
-          <div className="grid-item">
-            <img className='imagem' src={logo} alt='logo teste'/>
-            <p className="hidden-text">Avancado</p>
-          </div>
-
-          <div className="grid-item">
-            <img className='imagem' src={logo} alt='logo teste'/>
-            <p className="hidden-text">Iniciante</p>
-          </div>
-
-          <div className="grid-item">
-            <img className='imagem' src={logo} alt='logo teste'/>
-            <p className="hidden-text">Iniciante</p>
-          </div>
-          
         </div>
+        <div className='grid-row'>
+          <div className="grid-item">
+            <img className='imagem' src={logo} alt='logo teste'/>
+            <div><p className="hidden-text">Intermediario</p></div>
+          </div>
 
+          <div className="grid-item">
+            <img className='imagem' src={logo} alt='logo teste'/>
+            <div><p className="hidden-text">Avancado</p></div>
+          </div>
+
+          <div className="grid-item">
+            <img className='imagem' src={logo} alt='logo teste'/>
+            <div><p className="hidden-text">Iniciante</p></div>
+          </div>
+        </div>
       </div>
-
     </div>
   );
 }

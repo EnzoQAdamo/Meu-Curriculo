@@ -15,7 +15,7 @@ const sobreMim = () => {
     };
   return(
     <div className='new-section'>
-        <div className='add-margin'>
+        <div className='conteiner'>
             <div className='lista-atributos'>
                 <ul className='atributos-lista'>
                     <li><strong className='titulo'><span>Nome:</span></strong> Enzo Quartieri Adamo</li>
