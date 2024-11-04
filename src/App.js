@@ -1,21 +1,10 @@
 import './App.css'
-import videoBg from './assets/videos/fundo1.mp4'
-import fotoPerfil from './assets/fotos/logoEQA.jpg'
-import LinguagensDeProgramacao from './components/linguagens de programação/linguagens_de_programacao';
-import SobreMim from './components/sobre mim/sobre_mim';
+import MensagemManu from './components/mensagem manu/mensagem_manu';
 
 function App() {
   return(
-    <div className='conteudo'>
-      <video className='video-bg' src={videoBg} autoPlay muted loop/>
-      <div className='foto-perfil'>
-        <img src={fotoPerfil} alt='Foto de Perfil'/>
-      </div>
-      
-      <SobreMim/>
-      <LinguagensDeProgramacao/>
-    </div>
-  );
+    <MensagemManu/>
+  )
 }
 
 export default App;
