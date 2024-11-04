@@ -2,12 +2,12 @@ import '../../styles/global.css'
 import './linguagens_de_programacao.css'
 //import logo from '../../assets/fotos/logoEQA.jpg'
 import c from'../../assets/fotos/C - Linguagem.png'
-import cmaismais from'../../assets/fotos/C - Linguagem.png'
-import csharp from'../../assets/fotos/C - Linguagem.png'
-import dart from'../../assets/fotos/C - Linguagem.png'
-import html from'../../assets/fotos/C - Linguagem.png'
-import js from'../../assets/fotos/C - Linguagem.png'
-import python from'../../assets/fotos/C - Linguagem.png'
+import cmaismais from'../../assets/fotos/C++ linguagem.png'
+import csharp from'../../assets/fotos/C # - Linguagem.png'
+import dart from'../../assets/fotos/Dart - Linguagem.png'
+import html from'../../assets/fotos/HTML5 - Linguagem.png'
+import js from'../../assets/fotos/Javascript - Linguagem.png'
+import python from'../../assets/fotos/Python - Linguagem.png'
 
 const linguagensDeProgramacao = () => {
   return(
