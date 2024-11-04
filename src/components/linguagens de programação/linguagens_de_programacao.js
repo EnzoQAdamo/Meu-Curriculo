@@ -1,6 +1,6 @@
 import '../../styles/global.css'
 import './linguagens_de_programacao.css'
-import logo from '../../assets/fotos/logoEQA.jpg'
+//import logo from '../../assets/fotos/logoEQA.jpg'
 import c from'../../assets/fotos/C - Linguagem.png'
 import cmaismais from'../../assets/fotos/C - Linguagem.png'
 import csharp from'../../assets/fotos/C - Linguagem.png'
