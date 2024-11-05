@@ -8,7 +8,7 @@ const sobreMim = () => {
         const pdfUrl = curriculo;
         const link = document.createElement("a");
         link.href = pdfUrl;
-        link.download = "Currículo de Enzo Quartieri Adamo.pdf"; // specify the filename
+        link.download = "Currículo de Enzo Quartieri Adamo.pdf"; // Nome do arquivo
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

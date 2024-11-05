@@ -14,8 +14,8 @@ const linguagensDeProgramacao = () => {
     <div className='new-section'>
       <h1>Linguagens de Programação</h1>
 
-      <div className="grid-container">
-        <div className='grid-row'>
+      <div className="grid-container"> 
+        <div className='grid-row'>{/* Linha 1*/}
           <div className="grid-item">
             <img className='imagem' src={c} alt='logo teste'/>
             <div><p className="hidden-text">Avançado</p></div>
@@ -36,7 +36,7 @@ const linguagensDeProgramacao = () => {
             <div><p className="hidden-text">Intermediario</p></div>
           </div>
         </div>
-        <div className='grid-row'>
+        <div className='grid-row'>{/* Linha 2*/}
           <div className="grid-item">
             <img className='imagem' src={python} alt='logo teste'/>
             <div><p className="hidden-text">Intermediario</p></div>
