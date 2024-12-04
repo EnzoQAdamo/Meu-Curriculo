@@ -1,5 +1,5 @@
 /* Criando uma grade responsiva */
-.grid-container {
+.grid-container-lin {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Centraliza horizontalmente na página */
@@ -9,7 +9,7 @@
   position: relative;
 }
 
-.grid-row{
+.grid-row-lin{
   display: flex;
   flex-direction: row;
   justify-content: center; /* Centraliza horizontalmente na página */
@@ -18,7 +18,7 @@
 
 
 /* Estilo das divs internas */
-.grid-item {
+.grid-item-lin {
   position: relative;
   color: #000000;
   padding: 20px;
@@ -28,7 +28,7 @@
 }
 
 /* Ao passar o mouse, expande 20% */
-.grid-item:hover {
+.grid-item-lin:hover {
   transform: scale(1.2); /* Expande a div */
   z-index: 10; /* Eleva a camada da div quando expandida */
   background-color: #43A047; /* Muda de cor suavemente */
@@ -36,14 +36,14 @@
 }
 
 /* Texto oculto inicialmente */
-.hidden-text {
+.hidden-text-lin {
   display: none;
   text-align: center; /* Centraliza o texto horizontalmente */
 
 }
 
 /* Mostrar o texto oculto ao passar o cursor */
-.grid-item:hover .hidden-text {
+.grid-item-lin:hover .hidden-text-lin {
   display: block;
   position: absolute; /* Tira a div do fluxo normal */
   margin-top: 0px;
@@ -51,11 +51,11 @@
   text-align: center; /* Certifica que o texto está alinhado ao centro */
 }
 
-.grid-item div{
+.grid-item-lin div{
   display: flex;
   justify-content: center;
 }
 
-.imagem{
+.imagem-lin{
   height: 100px;
 }

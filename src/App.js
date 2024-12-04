@@ -1,6 +1,6 @@
 import './App.css'
 import videoBg from './assets/videos/fundo1.mp4'
-import fotoPerfil from './assets/fotos/logoEQA.jpg'
+import fotoPerfil from './assets/fotos/Foto perfil.jpg'
 import LinguagensDeProgramacao from './components/linguagens de programação/linguagens_de_programacao';
 import SobreMim from './components/sobre mim/sobre_mim';
 import ParteFinal from './components/parte_final/parte_final';

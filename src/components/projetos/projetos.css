@@ -1,25 +1,26 @@
-.grid-container {
+.grid-container-proj {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Centraliza horizontalmente na página */
   align-items: center;/* Centraliza verticalmente na página*/
   padding: 20px;
-  width: 40vw;
+  width: 80vw; 
   position: relative;
   gap: 15px;
 }
 
-.grid-row{
+.grid-row-proj{
   display: flex;
   flex-direction: row;
   justify-content: space-between; /* Centraliza horizontalmente na página */
   align-items: center;/* Centraliza verticalmente na página*/ 
   gap: 15px;
+  width: 100%;
 }
 
 .cardLin {
   position: relative;
-  width: 300px;
+  width: 48%;
   height: 200px;
   background-color: #f2f2f2;
   border-radius: 10px;
